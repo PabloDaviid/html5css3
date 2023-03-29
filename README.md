@@ -13,7 +13,7 @@
 # HTML5 e CSS3 - One page site
 Aprenda HTML5, CSS3 e técnicas de SEO de forma simples, prática e objetiva desenvolvendo passo a passo do zero até a hospedagem um site moderno e responsivo.
 ### Autor
-Professor José de Assis
+Pablo Anthony
 ### Apresentação do tutorial
 [![HTML5 e CSS3 - One Page Site](https://img.youtube.com/vi/bS720dGvAn8/0.jpg)](https://youtu.be/bS720dGvAn8 "Apresentação do projeto")
 
@@ -65,10 +65,3 @@ Professor José de Assis
 <a href="https://instagram.com/prof.joseassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="prof.joseassis" height="30" width="40" /></a>
 <a href="https://twitter.com/joseassis" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="joseassis" height="30" width="40" /></a>
 </p>
-
-### Você também pode me pagar um café! ☕
-
-### Chave PIX:
-` josedeassisfilho@gmail.com `
-
-### :smiley: Muito obrigado pelo apoio!
