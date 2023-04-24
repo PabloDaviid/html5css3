@@ -20,15 +20,69 @@ body {
 /* Layout */
 .container {
     margin: 0 auto;
-    background-color: #77ff00;
 }
+
+.Flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Topo do site */
+#topo {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
 /* SMARTPHONE PORTRAIT (vertical)>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
+header {
+    height: 60px;
+}
+
+#logo img {
+    width: 128px;
+    height: 128px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 3em;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #343538;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
 
 /* SMARTPHONE LANDSCAP (horizontal) >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:576px){
-    body{
-        background-color: #00ffff;
-    }
+    
     /* Layout */
     .container {
         max-width: 540px;
@@ -37,9 +91,7 @@ body {
 
 /* TABLET PORTRAIT (vertical) >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:768px){
-    body{
-        background-color: #ffff00;
-    }
+    
     /* Layout */
     .container {
         max-width: 720px;
@@ -47,9 +99,7 @@ body {
 }
 /* TABLET Landscape (horizontal) >>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:992px){
-    body{
-        background-color: #ff6600;
-    }
+    
     /* Layout */
     .container {
         max-width: 960px;
@@ -57,11 +107,45 @@ body {
 }
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 @media (min-width:1200px){
-    body{
-        background-color: #ff0000;
-    }
+    
     /* Layout */
     .container {
         max-width: 1140px;
     }
+
+    /* Cabeçalho */
+    header {
+        height: 120px;
+    }
+
+    #logo img {
+        width: 189px;
+        height: 189px;
+        margin-top: 30px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        height: auto;
+        background-color: transparent;
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a {
+        color: #343538;
+    }
+
+    nav ul li a:hover {
+        color: #c00000;
+    }
+
 }
